@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -52,4 +54,54 @@
     transform: rotate(17deg);
     top: -80px;
     left: -20px;
+}
+
+.container .card .card-content {
+    width: 100%;
+    height: 100%;
+
+    padding: 100px 20px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container .card .card-content .subtitle {
+    font-weight: 700;
+    color: #8f8f8f;
+    font-size: 14px;
+}
+
+.container .card .card-content .title {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #29455f;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.container .card .card-content .price {
+    margin: 10px 0;
+    text-align: right;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+
+    color: #29455f;
+}
+
+.container .card .card-content .price span {
+    font-size: 14px;
+    color: #808080;
+    margin-right: 5px;
+}
+
+.container .card .card-content .actions-container {
+    display: flex;
+    background: green;
+}
+
+.container .card .card-content .actions-container .shoes-options {
+    flex-grow: 1;
+    background: yellow;
 }
